@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    display: flex; 
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-basis: min(35%, 30%);
+
+    border: 1px solid black;
+}
+
+#signup {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70vw;
+
+    border: 1px solid black;
+}
+
+#signup header {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+
+    background-color: #F0F0F0;
+
+    padding: 150px 0 40px 50px;
+}
+
+#signup header p + p {
+    margin-bottom: 15px;
+}
+
+#signup main {
+
+    border: 1px solid black;
+}
+
+#signup footer {
+    flex-basis: 34%;
+
+    border: 1px solid black;
+}
