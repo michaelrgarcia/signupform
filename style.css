@@ -12,6 +12,10 @@ body {
     display: flex; 
 }
 
+header, main, footer {
+    font-family: sans-serif;
+}
+
 #sidebar {
     display: flex;
     flex-direction: column;
@@ -29,13 +33,12 @@ body {
 }
 
 #signup header {
-    font-family: sans-serif;
     font-weight: bold;
     font-size: 1.3em;
 
     background-color: #F0F0F0;
 
-    padding: 100px 0 40px 50px;
+    padding: 100px 50px 40px 50px;
 }
 
 #signup header p + p {
@@ -43,8 +46,6 @@ body {
 }
 
 #signup main {
-    font-family: sans-serif;
-
     padding: 10px 0 30px 50px;
 
     box-shadow: 0px 5px 10px 0px rgba(170,170,170, 0.75);
@@ -75,4 +76,25 @@ input {
 }
 
 #signup footer {
+    padding: 40px 0 0 50px;
+}
+
+#createbtn {
+    background-color: #596D48;
+    color: white;
+    
+    font-size: 1em;
+    font-weight: bold;
+
+    padding: 10px 45px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+a {
+    color:#596D48;
+
+    text-decoration: none;
+    font-weight: bold;
 }
