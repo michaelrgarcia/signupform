@@ -15,17 +15,17 @@ body {
 #sidebar {
     display: flex;
     flex-direction: column;
-    flex-basis: min(35%, 30%);
+    flex-basis: 35vw;
 
-    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.2) url(./imgs/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 #signup {
     display: flex;
     flex-direction: column;
     flex-basis: 70vw;
-
-    border: 1px solid black;
 }
 
 #signup header {
@@ -35,7 +35,7 @@ body {
 
     background-color: #F0F0F0;
 
-    padding: 150px 0 40px 50px;
+    padding: 100px 0 40px 50px;
 }
 
 #signup header p + p {
@@ -43,12 +43,28 @@ body {
 }
 
 #signup main {
+    padding: 10px 0 0 50px;
+}
 
-    border: 1px solid black;
+
+.form-row {
+    display: flex;
+    gap: 75px;
+
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: -3px;
+}
+
+input {
+    width: clamp(200px, 50vw, 25vw);
+    height: 25px;
 }
 
 #signup footer {
     flex-basis: 34%;
-
-    border: 1px solid black;
 }
