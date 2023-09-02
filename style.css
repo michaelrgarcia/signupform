@@ -20,6 +20,7 @@ header, main, footer {
     display: flex;
     flex-direction: column;
     flex-basis: 35vw;
+    padding-top: 200px;
 
     background: rgba(0, 0, 0, 0.2) url(./imgs/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
     background-size: cover;
@@ -97,4 +98,29 @@ a {
 
     text-decoration: none;
     font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    height: 150px;
+}
+
+.logo img {
+    width: clamp(75px, 7vw, 5vw);
+    vertical-align: middle;
+}
+
+.logo p {
+    display: inline-block;
+
+    font-family: sans-serif;
+    font-size: 3em;
+    vertical-align: middle;
+
+    color:white;
 }
