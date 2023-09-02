@@ -111,7 +111,7 @@ footer a {
 }
 
 .logo img {
-    width: clamp(65px, 7vw, 5vw);
+    width: clamp(55px, 7vw, 5vw);
     vertical-align: middle;
 }
 
