@@ -54,7 +54,7 @@ header, main, footer {
 
 .form-row {
     display: flex;
-    gap: 75px;
+    gap: 60px;
 
     margin-top: 10px;
 }
@@ -62,18 +62,29 @@ header, main, footer {
 label {
     display: block;
     text-align: left;
-    margin-bottom: -3px;
 
     color: rgb(80, 80, 80);
+
     font-weight: bold;
-    font-size: .9em;
+    font-size: .85em;
+    letter-spacing: 1px;
 }
 
 input {
-    width: clamp(200px, 50vw, 25vw);
+    width: clamp(237px, 50vw, 20vw);
     height: 25px;
     
     margin-bottom: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 3px 3px 3px 7px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgba(0, 0, 255, 0.5);
+
+    box-shadow: 1px 3px 5px 0px rgba(170, 170, 170, 0.75);
 }
 
 #signup footer {
@@ -112,6 +123,7 @@ footer a {
 
 .logo img {
     width: clamp(55px, 7vw, 5vw);
+
     vertical-align: middle;
 }
 
@@ -130,7 +142,6 @@ footer a {
 
     margin-top: auto;
     margin-bottom: 7px;
-    color: white;
 }
 
 #sidebar p a,
