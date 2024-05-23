@@ -7,4 +7,4 @@ The form validation is all done with vanilla HTML, no JavaScript is used.
 
 This will demonstrate my current vanilla HTML and CSS skills, but mainly my current ability to make/style forms.
 
-It can be found here:  https://leavesturninsideyou.github.io/signupform/
+It can be found here: https://michaelrgarcia.github.io/signupform/
